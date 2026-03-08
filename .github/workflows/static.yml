@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>CİCİ | Resmi Site</title>
+<style>
+body{
+font-family: Arial;
+background:#111;
+color:white;
+text-align:center;
+margin:0;
+}
+
+header{
+background:#ff2a6d;
+padding:20px;
+}
+
+nav a{
+color:white;
+margin:10px;
+text-decoration:none;
+font-weight:bold;
+}
+
+section{
+padding:40px;
+}
+
+button{
+padding:10px 20px;
+border:none;
+background:#ff2a6d;
+color:white;
+font-size:16px;
+cursor:pointer;
+}
+
+footer{
+background:#222;
+padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+<h1>CİCİ</h1>
+<p>Resmi Sanatçı Sitesi</p>
+
+<nav>
+<a href="#hakkinda">Hakkında</a>
+<a href="#muzik">Müzik</a>
+<a href="#iletisim">İletişim</a>
+</nav>
+</header>
+
+<section id="hakkinda">
+<h2>Hakkında</h2>
+<p>
+CİCİ kendi müziklerini üreten bağımsız bir sanatçıdır.
+Bu site sanatçının resmi web sitesidir.
+</p>
+</section>
+
+<section id="muzik">
+<h2>Müzik</h2>
+
+<iframe style="border-radius:12px"
+src="https://open.spotify.com/embed/track/0"
+width="300"
+height="80"
+frameBorder="0"
+allowfullscreen=""
+allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture">
+</iframe>
+
+</section>
+
+<section id="iletisim">
+<h2>İletişim</h2>
+<p>Sanatçı ile iletişim için sosyal medya hesaplarını takip edin.</p>
+</section>
+
+<footer>
+<p>© 2026 CİCİ</p>
+</footer>
+
+</body>
+</html>
